@@ -27,6 +27,9 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',
+  basePath: '/Smart-Resource-Optimization-for-Construction',
+  assetPrefix: '/Smart-Resource-Optimization-for-Construction/',
 }
 
 if (userConfig) {
