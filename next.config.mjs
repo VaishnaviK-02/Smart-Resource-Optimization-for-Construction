@@ -30,6 +30,7 @@ const nextConfig = {
   output: 'export',
   basePath: '/Smart-Resource-Optimization-for-Construction',
   assetPrefix: '/Smart-Resource-Optimization-for-Construction/',
+  trailingSlash: true,
 }
 
 if (userConfig) {
